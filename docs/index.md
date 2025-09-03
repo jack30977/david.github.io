@@ -7,9 +7,9 @@ tags:
 <center>
 <font size= "6">Jacob Dirks Datasheet</font><br>
 as part of<br>
-<font size= "8"> Project Name</font><br>
+<font size= "8"> Project Name - Individual DataSheet</font><br>
 for<br>
-<font size= "5"> Team ### </font><br>
+<font size= "5"> Team 102 </font><br>
 
 **Submission: month, DD, YYYY**
 </center>
