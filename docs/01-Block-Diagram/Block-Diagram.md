@@ -33,7 +33,7 @@ To get some initial formatting help, one can view ["here"](https://embedded-syst
 
 ## Individual Block Diagram
 
-![Uhoh we lost the Block Diagram](images\DirksBlockDiagramT102.png)
+![Uhoh we lost the Block Diagram](images/DirksBlockDiagramT102.png)
 
 <!--
 ## Example Block Diagram
