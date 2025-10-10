@@ -35,6 +35,7 @@ To get some initial formatting help, one can view ["here"](https://embedded-syst
 ![Uh oh we lost the Block Diagram](images/DirksBlockDiagramT102.png)
 
 This block diagram is available on [Draw.io here!](https://drive.google.com/file/d/1KY_l_oFdGwqlsgwlLvn5x_c0yW5vuY1z/view?usp=sharing)
+It can also be found [in pdf form here.](images/EGR304IndividualBlockDiagram.pdf)
 <!--
 ## Example Block Diagram
 
