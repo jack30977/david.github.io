@@ -185,7 +185,7 @@ The purpose of this section is to highlight various solutions for the components
     |                                                                   | Hard to see limit is found                                           |
     |                                                                   | Target surface may move without mechanical support                   |
 
-1. Swiitch Snap Action SPDT
+1. Switch Snap Action SPDT
 
     ![Limit Switch similar to EGR 102](images/limitSwitch/MS0850502F030P1A_LimitSwitch1.png)
 
@@ -205,7 +205,7 @@ The purpose of this section is to highlight various solutions for the components
     ![New Limit Switch with a circle ending](images/limitSwitch/MFG_463093691402LimitSwitch.png)
 
     * $4.00/each
-    * [463093691402](<link>)
+    * [463093691402](https://www.digikey.com/en/products/detail/w-rth-elektronik/463093691402/14113680?gclsrc=aw.ds&gad_source=1&gad_campaignid=20243136172&gbraid=0AAAAADrbLlhjMd1SI_TeFQt_5_XtjL5xo&gclid=CjwKCAjwr8LHBhBKEiwAy47uUmrm-bK4boEMAm9Mk_cnw0iZMQBKQOZvTpEZI7Jhn9Q0tGQiBCwf3BoC28MQAvD_BwE)
 
     | Pros                                                              | Cons                                                                 |
     | ----------------------------------------------------------------- | -------------------------------------------------------------------- |
@@ -463,5 +463,6 @@ The purpose of this section is to highlight various solutions for the components
 
 After all of our components have been selected we need to ensure that we have enough power to actually complete the subsection as we have designed it. Otherwise, we'll need to find a new or a secondary power source or we'll need to choose different components.
 
-![PowerBudget Sheet Image](imaaes/powerBudget.png)
+![PowerBudget Sheet Image](images/powerBudget1.png)
+![lower power budget image](images/powerBudget2.png)
 [PDF Version](powerBudget.pdf)
