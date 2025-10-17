@@ -111,9 +111,11 @@ title: Component Selection Example
 
 -->
 
-The purpose of this section is to highlight various solutions for the components used in the subsystem and identify the choices that will best suit this project. 
+The purpose of this section is to highlight various solutions for the components used in the subsystem and identify the choices that will best suit this project.
 
-## External Power Supply
+## Components
+
+### External Power Supply
 
 1. USB Power Bank Battery Charger 2A
 
@@ -165,14 +167,14 @@ The purpose of this section is to highlight various solutions for the components
 
 **Rationale:** A barrel jack port works with project specifications and also helps prevent user error while inputting the power supply. The BestCH 9V 3A AC Adapter works the best of the two devices following this form factor. A bonus fact is that the team knows the process to connect it safely to the Micro-controller and various components. This provides ample power for everything within the circuit and doesn't require us to ramp voltage up through another means to power the most voltage intensive elements. The cost being lower than the other two options is a positive but not a critically deciding factor as there are other power supply options that are around the same price point.
 
-## Limit Switch
+### Limit Switch
 
-1. TS02-66-60-BK-160-LCR-D (Push button)
+1. Switch Tactile SPST-NO 0.05A 12V
 
-    ![](<fileLocation>)
+    ![Push Button used in a different way](images/limitSwitch/MFG_TS02-Sm-BK-LCR_pushButton.png)
 
-    * $5.96/each
-    * [text](<link>)
+    * $0.10/each
+    * [TS02-66-60-BK-160-LCR-D](https://www.digikey.com/en/products/detail/same-sky-formerly-cui-devices-/TS02-66-60-BK-160-LCR-D/15634268?gclsrc=aw.ds&gad_source=1&gad_campaignid=20243136172&gbraid=0AAAAADrbLlhjMd1SI_TeFQt_5_XtjL5xo&gclid=CjwKCAjwr8LHBhBKEiwAy47uUh-cogwbaGtzIIgXFJdfVBIwK43Z69rQIvC9JF_tBIOo4p1fC_SE3BoCO44QAvD_BwE)
 
     | Pros                                                              | Cons                                                                 |
     | ----------------------------------------------------------------- | -------------------------------------------------------------------- |
@@ -183,12 +185,12 @@ The purpose of this section is to highlight various solutions for the components
     |                                                                   | Hard to see limit is found                                           |
     |                                                                   | Target surface may move without mechanical support                   |
 
-2. MS0850502F030P1A (limit switch)
+1. Swiitch Snap Action SPDT
 
-    ![](<fileLocation>)
+    ![Limit Switch similar to EGR 102](images/limitSwitch/MS0850502F030P1A_LimitSwitch1.png)
 
-    * $5.96/each
-    * [text](<link>)
+    * $1.35/each
+    * [MS0850502F030P1A](https://www.digikey.com/en/products/detail/e-switch/MS0850502F030P1A/1628122?gclsrc=aw.ds&gad_source=4&gad_campaignid=20243136172&gbraid=0AAAAADrbLlj9VOp3m0S33_Eo5bb054Aan&gclid=CjwKCAjw6P3GBhBVEiwAJPjmLlhCRaDt99omgLz1hzmr-Y8tHiwT0D3Go3Vv2fcdLCyhnChq4JJsNxoCfLgQAvD_BwE)
 
     | Pros                                                              | Cons                                                                 |
     | ----------------------------------------------------------------- | -------------------------------------------------------------------- |
@@ -198,12 +200,12 @@ The purpose of this section is to highlight various solutions for the components
     | 50k+ operation lifespan                                           |                                                                      |
     |                                                                   |                                                                      |
 
-3. 463093691402 (limit switch)
+1. Limit Switch SPDT 3A 125V
 
-    ![](<fileLocation>)
+    ![New Limit Switch with a circle ending](images/limitSwitch/MFG_463093691402LimitSwitch.png)
 
-    * $5.96/each
-    * [text](<link>)
+    * $4.00/each
+    * [463093691402](<link>)
 
     | Pros                                                              | Cons                                                                 |
     | ----------------------------------------------------------------- | -------------------------------------------------------------------- |
@@ -213,18 +215,18 @@ The purpose of this section is to highlight various solutions for the components
     | Three states, but only two pins required                          |                                                                      |
     | Through hole mounting                                             |                                                                      |
 
-**Choice:** Option 3: 
+**Choice:** Option 3: Limit Switch SPDT 3A 125V
 
-**Rationale:** 
+**Rationale:** This limit switch is rated for the maximum power supply current and for a higher voltage than the project will be using. It's useful in ensuring the motor doesn't go too far and making it so the moisture sensor won't corrode by being in the soil for long periods of time. This particular option is better than the rest due to the smaller size and mounting options. Since it is smaller we won't need as powerful a motor to move the prismatic joint and other components at the end toward the plant. Secondarily, the cylindrical element at the end can create a depression in the soil which will have even more resistance to being moved and will help the actuation of the switch part of the component.
 
-## Motor Driver
+### Motor Driver
 
-1. FAN8100N (H-Bridge)
+1. Brush DC Motor Controller
 
-    ![](<fileLocation>)
+    ![H-bridge provided in Class with large ground pins](images/MotorDriver/Fan8100N.png)
 
-    * $5.96/each
-    * [text](<link>)
+    * $0.96/each
+    * [FAN8100N](https://www.digikey.com/en/products/detail/fairchild-semiconductor/FAN8100N/11558200)
 
     | Pros                                                              | Cons                                                                 |
     | ----------------------------------------------------------------- | -------------------------------------------------------------------- |
@@ -234,12 +236,10 @@ The purpose of this section is to highlight various solutions for the components
     | Allows for forward and reverse signals                            |                                                                      |
     | Doesn’t need PWM signal                                           |                                                                      |
 
-1. Use a motor that doesn’t need a motor driver
+2. Use a motor that doesn’t need a motor driver
 
-    ![](<fileLocation>)
-
-    * $5.96/each
-    * [text](<link>)
+    * Price: N/A
+    * This is an option due to the built in ways to manage a motor without a motor driver so we'd be remiss to not at least include the option.
 
     | Pros                                                              | Cons                                                                 |
     | ----------------------------------------------------------------- | -------------------------------------------------------------------- |
@@ -247,12 +247,12 @@ The purpose of this section is to highlight various solutions for the components
     | May remove need for a limit switch                                | Requires motor constant tuning                                       |
     | Reduces PCB failure points                                        | May need voltage amplification circuit                               |
 
-1. 4035 (Motor Driver daughter board)
+3. DRV8874 Single Motor Driver
 
-    ![](<fileLocation>)
+    ![GReen PCB with several components](images/MotorDriver/4035.png)
 
-    * $5.96/each
-    * [text](<link>)
+    * $11.94/each
+    * [4035](https://www.digikey.com/en/products/detail/pololu/4035/26714680)
 
     | Pros                                                              | Cons                                                                 |
     | ----------------------------------------------------------------- | -------------------------------------------------------------------- |
@@ -260,18 +260,18 @@ The purpose of this section is to highlight various solutions for the components
     | Plug-and-play on breadboard                                       | Needs extra male pin connectors to attach                            |
     | Supports PWM and H-Bridge control                                 |                                                                      |
 
-**Choice:** Option 1: 
+**Choice:** Option 1: Brush DC Motor Controller
 
-**Rationale:** 
+**Rationale:** Even though it adds a component, it follows project specifications and helps ensure the mechanical testing of the motor part. It doesn't hurt that there is a secondary integrated circuit for potential mishaps. Also the unique footprint of the through-hole option helps create an easier design assembly. As an added benefit the team knows how to use this particular component in order to drive a similar motor which will help in testing the overall system. It also removes a limit on the potential motor options and if the motor chosen later doesn't require one then we can change to Option 2. (Spoiler the motor chosen uses this.)
 
-## Voltage Regulator
+### Voltage Regulator
 
 1. Resistors in series
 
-    ![](<fileLocation>)
+    ![Resistors in Series](<images/LinearRegV/seriesResistors.png>)
 
-    * $5.96/each
-    * [text](<link>)
+    * Price: N/A given unspecified resistor choices
+    * [Potential Resistor Selection kit for your reference](https://a.co/d/aAf8ao3)
 
     | Pros                                                              | Cons                                                                 |
     | ----------------------------------------------------------------- | -------------------------------------------------------------------- |
@@ -280,12 +280,12 @@ The purpose of this section is to highlight various solutions for the components
     | Compact placement near PCB face                                   | Requires more space than regulators                                  |
     | Fault-tolerant due to redundancy                                  | Troubleshooting is difficult                                         |
 
-1. L7805CV (linear voltage regulator)
+2. Linear Voltage Regulator IC Positive Fixed 1 Output
 
-    ![](<fileLocation>)
+    ![Class supplied linear voltage regulator](<fileLocation>)
 
-    * $5.96/each
-    * [text](<link>)
+    * $0.50/each
+    * [L7805CV](https://www.digikey.com/en/products/detail/stmicroelectronics/L7805CV/585964)
 
     | Pros                                                              | Cons                                                                 |
     | ----------------------------------------------------------------- | -------------------------------------------------------------------- |
@@ -295,12 +295,12 @@ The purpose of this section is to highlight various solutions for the components
     | Example circuit available                                         |                                                                      |
     | Tested across various circuits                                    |                                                                      |
 
-1. MC34063ADR (switching regulator)
+3. Buck Boost Switching Regulator IC Positive or Negative Adjustable
 
-    ![](<fileLocation>)
+    ![switching regulator](images/LinearRegV/MC34063ADR.png)
 
-    * $5.96/each
-    * [text](<link>)
+    * $0.72/each
+    * [MC34063ADR](https://www.digikey.com/en/products/detail/texas-instruments/MC34063ADR/717456?gclsrc=aw.ds&gad_source=1&gad_campaignid=20228387720&gbraid=0AAAAADrbLljJJP2LtM7hvCVp3-Mh3_7W_&gclid=CjwKCAjwr8LHBhBKEiwAy47uUqqq2aaMgDxPoCipSHMWYPq1FvuA-GJiQvTwFop36W6WR2qHT0x6vRoC2WUQAvD_BwE)
 
     | Pros                                                              | Cons                                                                 |
     | ----------------------------------------------------------------- | -------------------------------------------------------------------- |
@@ -309,18 +309,18 @@ The purpose of this section is to highlight various solutions for the components
     | Design equations provided                                         | Larger footprint than L7805CV                                       |
     | Can be surface or through-hole mounted                            |                                                                      |
 
-**Choice:** Option #: 2
+**Choice:** Option 2: Linear Voltage Regulator IC Positive Fixed 1 Output
 
-**Rationale:** Already available, familiar to the team, meets most current requirements, and aligns with the learning goals of the project.
+**Rationale:** A linear voltage regulator is a clean solution to help get the power down from a higher voltage and amperage to the voltage we need for parts of this sub-system. In turn this one allows for an additional heat sink attachment if required to help prevent dangerous conditions and enable long-term use. While the price point isn't that much different from a switching regulator the ease of integration into the circuit elevates this option over the others. Also the consistency of this option promotes it over using a line of resistors.
 
-## Barrel Jack
+### Barrel Jack
 
-1. 10-02248 - lines
+1. Cable Assembly 2.1mm ID, 5.5mm OD Jack to Wire Leads
 
-    ![](<fileLocation>)
+    ![Amorphous Barrel Jack](images/BarrelJack/10-02248_wire.png)
 
-    * $5.96/each
-    * [text](<link>)
+    * $3.12/each
+    * [10-02248](https://www.digikey.com/en/products/detail/tensility-international-corp/10-02248/6412283?gad_source=1&gad_campaignid=20232005509&gbraid=0AAAAADrbLljrcXxUCV1LTsO6jxX4XA7oB&gclid=CjwKCAjwr8LHBhBKEiwAy47uUhWfRJa1WjSa7oFyE4S57edtEmoB1vwpPt2mvGG0NypB_fi1XxlHgBoC86AQAvD_BwE&gclsrc=aw.ds)
 
     | Pros                                                              | Cons                                                                 |
     | ----------------------------------------------------------------- | -------------------------------------------------------------------- |
@@ -328,12 +328,12 @@ The purpose of this section is to highlight various solutions for the components
     | Could be sealed for water resistance                              | Hard to diagnose wire issues                                         |
     | Variable footprint flexibility                                    | Only one ground contact                                              |
 
-1. PJ-102AH - normal 
+2. Power Barrel Connector Jack 2.00mm ID (0.079"), 5.50mm OD (0.217") Through Hole, Right Angle
 
-    ![](<fileLocation>)
+    ![Pins perpendicular to plug barrel jack](images/BarrelJack/PJ-102AH_square.png)
 
-    * $5.96/each
-    * [text](<link>)
+    * $0.76/each
+    * [PJ-102AH](https://www.digikey.com/en/products/detail/cui-devices/PJ-102AH/408448)
 
     | Pros                                                              | Cons                                                                 |
     | ----------------------------------------------------------------- | -------------------------------------------------------------------- |
@@ -343,12 +343,12 @@ The purpose of this section is to highlight various solutions for the components
     | Matches supply ports                                              |                                                                      |
     | Rated for 24V/5A                                                  |                                                                      |
 
-1. PJ-044BH - butt pins
+3. PJ-044BH - butt pins
 
-    ![](<fileLocation>)
+    ![Pins parallel to plug](images/BarrelJack/PJ-044BH_column.png)
 
     * $5.96/each
-    * [text](<link>)
+    * [PJ-044BH](<link>)
 
     | Pros                                                              | Cons                                                                 |
     | ----------------------------------------------------------------- | -------------------------------------------------------------------- |
@@ -358,18 +358,18 @@ The purpose of this section is to highlight various solutions for the components
     | Through-hole attachment                                           |                                                                      |
     | Rated for 24V/5A                                                  |                                                                      |
 
-**Choice:** Option #: 2
+**Choice:** Option 2: Power Barrel Connector Jack 2.00mm ID (0.079"), 5.50mm OD (0.217") Through Hole, Right Angle
 
-**Rationale:** Best balance of mechanical stability, rating, and footprint compatibility, with minor concessions on waterproofing.
+**Rationale:** A barrel jack is a good input due to the form factor of the power supply. However, the right angle of the pins allows us to at least create some form of security for the board as well as offer mechanical stability. Otherwise the footprint is distinct which will help in identifying its location on the board. Since it is a hard mechanical component we don't have to worry about it being taken out of the housing or tearing lose from the soldered ends as easily as the amorphous solution. Also due to the pins being perpendicular to the force of the plug being inserted or extracted we know that the solder won't get pulled on its thinnest surface area.
 
-## Motor
+### Motor
 
-1. FIT0186 (Encoder Based motor)
+1. DC Motor Gearmotor 251 RPM Incremental
 
-    ![](<fileLocation>)
+    ![Cylindrical DC Motor With Encoder](images/motors/FIT0186_cylinder.png)
 
-    * $5.96/each
-    * [text](<link>)
+    * $16.50/each
+    * [FIT0186](https://www.digikey.com/en/products/detail/dfrobot/FIT0186/6588528?gad_source=1&gad_campaignid=20243136172&gbraid=0AAAAADrbLlhjMd1SI_TeFQt_5_XtjL5xo&gclid=CjwKCAjwr8LHBhBKEiwAy47uUiZT24D54yJyO7D1VLXUaRgkqtdy2s7iNZbHibsX2ntwZ8JDITamkRoClxUQAvD_BwE&gclsrc=aw.ds)
 
     | Pros                                                              | Cons                                                                 |
     | ----------------------------------------------------------------- | -------------------------------------------------------------------- |
@@ -377,12 +377,12 @@ The purpose of this section is to highlight various solutions for the components
     | Includes encoder                                                  | Software control needed, not easy to simulate                        |
     | No external software for encoder needed                           | Hard to secure due to cylindrical shape                              |
 
-1. 711 (DC motor)
+2. DC Motor Standard 9100 RPM 6VDC
 
-    ![](<fileLocation>)
+    ![Small Hobby motor with flattened side](images/motors/711_small.png)
 
-    * $5.96/each
-    * [text](<link>)
+    * $1.95/each
+    * [711](https://www.digikey.com/en/products/detail/adafruit-industries-llc/711/5353610)
 
     | Pros                                                              | Cons                                                                 |
     | ----------------------------------------------------------------- | -------------------------------------------------------------------- |
@@ -393,12 +393,12 @@ The purpose of this section is to highlight various solutions for the components
     | Mechanically simulative                                           |                                                                      |
     | Flexible mounting options                                         |                                                                      |
 
-1. SER0006 - servo 
+3. Positional Rotation DC Motor Servomotor, RC (Hobby) Incremental 4.8VDC
 
-    ![](<fileLocation>)
+    ![Tiny Hobby Servo](images/motors/SER0006Servo.png)
 
-    * $5.96/each
-    * [text](<link>)
+    * $3.62/each
+    * [SER0006](https://www.digikey.com/en/products/detail/dfrobot/SER0006/7597224?gad_source=1&gad_campaignid=20243136172&gbraid=0AAAAADrbLlhjMd1SI_TeFQt_5_XtjL5xo&gclid=CjwKCAjwr8LHBhBKEiwAy47uUvqPSR01UMMaW0vsJkCTgcAjBQFTcxhHIqgslE7rbuC9zgGIagRgSxoCdmYQAvD_BwE&gclsrc=aw.ds)
 
     | Pros                                                              | Cons                                                                 |
     | ----------------------------------------------------------------- | -------------------------------------------------------------------- |
@@ -408,18 +408,15 @@ The purpose of this section is to highlight various solutions for the components
     | High torque                                                       |                                                                      |
     | No motor controller needed                                        |                                                                      |
 
-**Choice:** Option #: 3
+**Choice:** Option 2: DC Motor Standard 9100 RPM 6VDC
 
-**Rationale:** High torque, compact shape, encoder, and voltage alignment make it ideal even with setup complexity.
+**Rationale:** While it does have a lowered torque this acts as a safety feature for both the user and the plant in case the moisture sensor is misaligned. Also the flat sides on the housing of the motor allow for a brace to be installed in order to ensure the motor doesn't just spin. An added benefit of not having an encoder is a reduction in the wires that need to be connected directly to the motor. Reducing the amount of wires that would be exposed to the user's environment and needed to be searched to debug errors with the motor. Its size also helps the keep the housing smaller and doesn't force the team to come up with a clever way to hide it or to prevent damage over a larger surface.
 
-## Moisture Sensor
+### Moisture Sensor
 
 1. Handmade Resistive check using nails
 
-    ![](<fileLocation>)
-
-    * $5.96/each
-    * [text](<link>)
+    * Item is not commercially available.
 
     | Pros                                                              | Cons                                                                 |
     | ----------------------------------------------------------------- | -------------------------------------------------------------------- |
@@ -428,12 +425,12 @@ The purpose of this section is to highlight various solutions for the components
     | Reading handled in software                                       | Very dry soil might not register                                     |
     | Modular parts for easy repair                                     | Theoretical op-amp dependence unclear                                |
 
-1. 13637
+2. Moisture Sensor Evaluation Board
 
-   ![](fileLocation)
+   ![Daughter Board Moisture Sensor](images/MoistureSensor/13637DaughterBoard.png)
 
-   * $5.96/each
-   * [text](link)
+   * $7.95/each
+   * [13637](https://www.digikey.com/en/products/detail/sparkfun-electronics/13637/7400839?gad_source=1&gad_campaignid=20243136172&gbraid=0AAAAADrbLlhjMd1SI_TeFQt_5_XtjL5xo&gclid=CjwKCAjwr8LHBhBKEiwAy47uUjeGi6UtHDL_beVgu_eJiEsKrjFd01ggEMLQVdYcNGciDJtOswrw4hoCn1kQAvD_BwE&gclsrc=aw.ds)
 
    | Pros                               | Cons                                                   |
    | ---------------------------------- | ------------------------------------------------------ |
@@ -442,12 +439,12 @@ The purpose of this section is to highlight various solutions for the components
    | Consumer-friendly design potential | Logic integration reduces student learning opportunity |
    | Reaches deeper into soil           |                                                        |
 
-2. VH400 Soil Moisture Sensor Probe
+3. VH400 Soil Moisture Sensor
 
-   ![](fileLocation)
+   ![Sketchy Site Moisture Sensor](images/MoistureSensor/SoilMostureRelay.png)
 
-   * $5.96/each
-   * [text](link)
+   * $44.95/each
+   * [VH400](https://www.vegetronix.com/Products/g/VH400/?gad_source=1&gad_campaignid=16579499448&gbraid=0AAAAAD_hWxYMQJn4Trg0Nl1iOHVlJVMqP&gclid=CjwKCAjwr8LHBhBKEiwAy47uUunZFvPe0wVtp9Pu4kTaTyLGShGn7Eob-b656uyo1-3Cv-Wh-73_LxoCV7MQAvD_BwE)
 
    | Pros                                    | Cons                                       |
    | --------------------------------------- | ------------------------------------------ |
@@ -458,6 +455,13 @@ The purpose of this section is to highlight various solutions for the components
    | Usable in hydroponics                   |                                            |
    | Long-lasting corrosion-resistant design |                                            |
 
-**Choice:** Option 1:
+**Choice:** Option 1: Handmade resistive check using nails
 
-**Rationale:** 
+**Rationale:** This option forces the student team to delve into how electricity is transferred through space. This also follows the project specifications of not having a daughter board component. Unfortunately, for the accuracy due to soil chemistry that is the best option due to majority of moisture sensors needing a daughter board of some kind in order to function.
+
+## Power Budget
+
+After all of our components have been selected we need to ensure that we have enough power to actually complete the subsection as we have designed it. Otherwise, we'll need to find a new or a secondary power source or we'll need to choose different components.
+
+![PowerBudget Sheet Image](imaaes/powerBudget.png)
+[PDF Version](powerBudget.pdf)
