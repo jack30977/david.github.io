@@ -119,7 +119,7 @@ The purpose of this section is to highlight various solutions for the components
 
 1. USB Power Bank Battery Charger 2A
 
-    ![AdaFruit Industries USB Power Bank](images/PowerSupply/1566USB.png){style width:"250" height:"250;"}
+    ![AdaFruit Industries USB Power Bank](images/PowerSupply/1566USB.png){style width:"150" height:"150;"}
 
     * $39.95/each
     * [*1566*](https://www.digikey.com/en/products/detail/adafruit-industries-llc/1566/6612468?gclsrc=aw.ds&gad_source=1&gad_campaignid=20243136172&gbraid=0AAAAADrbLlhjMd1SI_TeFQt_5_XtjL5xo&gclid=CjwKCAjwr8LHBhBKEiwAy47uUk3q97qpKOk9OI4bVaExirH9Z_ZgJgqjou72gkbAOUQFlqWR2LLEgBoCRz8QAvD_BwE)
@@ -132,7 +132,7 @@ The purpose of this section is to highlight various solutions for the components
 
 1. BestCH 9V 3.0A AC Adapter
 
-    ![EGR 304's power port](images/PowerSupply/Bestch_EGR304Jack.jpg){style width:"250" height:"250;"}
+    ![EGR 304's power port](images/PowerSupply/Bestch_EGR304Jack.jpg){style width:"150" height:"150;"}
 
     * $4.52/each
     * [*B09ZTKTLGW*](https://a.co/d/hFQdNi4)
@@ -150,7 +150,7 @@ The purpose of this section is to highlight various solutions for the components
 
 1. 6V DC Power Supply 1A Universal AC Adapter
 
-    ![EGR 455's power port](images/PowerSupply/6v1AEGR455Jack.png){style width:"250" height:"250;"}
+    ![EGR 455's power port](images/PowerSupply/6v1AEGR455Jack.png){style width:"150" height:"150;"}
 
     * $5.96/each
     * [*B0B2DWMYYH*](https://a.co/d/5TMpGsm)
@@ -171,7 +171,7 @@ The purpose of this section is to highlight various solutions for the components
 
 1. Switch Tactile SPST-NO 0.05A 12V
 
-    ![Push Button used in a different way](images/limitSwitch/MFG_TS02-Sm-BK-LCR_pushButton.png){style width:"250" height:"250;"}
+    ![Push Button used in a different way](images/limitSwitch/MFG_TS02-Sm-BK-LCR_pushButton.png){style width:"150" height:"150;"}
 
     * $0.10/each
     * [*TS02-66-60-BK-160-LCR-D*](https://www.digikey.com/en/products/detail/same-sky-formerly-cui-devices-/TS02-66-60-BK-160-LCR-D/15634268?gclsrc=aw.ds&gad_source=1&gad_campaignid=20243136172&gbraid=0AAAAADrbLlhjMd1SI_TeFQt_5_XtjL5xo&gclid=CjwKCAjwr8LHBhBKEiwAy47uUh-cogwbaGtzIIgXFJdfVBIwK43Z69rQIvC9JF_tBIOo4p1fC_SE3BoCO44QAvD_BwE)
@@ -187,7 +187,7 @@ The purpose of this section is to highlight various solutions for the components
 
 1. Switch Snap Action SPDT
 
-    ![Limit Switch similar to EGR 102](images/limitSwitch/MS0850502F030P1A_LimitSwitch1.png){style width:"250" height:"250;"}
+    ![Limit Switch similar to EGR 102](images/limitSwitch/MS0850502F030P1A_LimitSwitch1.png){style width:"150" height:"150;"}
 
     * $1.35/each
     * [*MS0850502F030P1A*](https://www.digikey.com/en/products/detail/e-switch/MS0850502F030P1A/1628122?gclsrc=aw.ds&gad_source=4&gad_campaignid=20243136172&gbraid=0AAAAADrbLlj9VOp3m0S33_Eo5bb054Aan&gclid=CjwKCAjw6P3GBhBVEiwAJPjmLlhCRaDt99omgLz1hzmr-Y8tHiwT0D3Go3Vv2fcdLCyhnChq4JJsNxoCfLgQAvD_BwE)
@@ -202,7 +202,7 @@ The purpose of this section is to highlight various solutions for the components
 
 1. Limit Switch SPDT 3A 125V
 
-    ![New Limit Switch with a circle ending](images/limitSwitch/MFG_463093691402LimitSwitch.png){style width:"250" height:"250;"}
+    ![New Limit Switch with a circle ending](images/limitSwitch/MFG_463093691402LimitSwitch.png){style width:"150" height:"150;"}
 
     * $4.00/each
     * [*463093691402*](https://www.digikey.com/en/products/detail/w-rth-elektronik/463093691402/14113680?gclsrc=aw.ds&gad_source=1&gad_campaignid=20243136172&gbraid=0AAAAADrbLlhjMd1SI_TeFQt_5_XtjL5xo&gclid=CjwKCAjwr8LHBhBKEiwAy47uUmrm-bK4boEMAm9Mk_cnw0iZMQBKQOZvTpEZI7Jhn9Q0tGQiBCwf3BoC28MQAvD_BwE)
@@ -223,7 +223,7 @@ The purpose of this section is to highlight various solutions for the components
 
 1. Brush DC Motor Controller
 
-    ![H-bridge provided in Class with large ground pins](images/MotorDriver/Fan8100N.png){style width:"250" height:"250;"}
+    ![H-bridge provided in Class with large ground pins](images/MotorDriver/Fan8100N.png){style width:"150" height:"150;"}
 
     * $0.96/each
     * [*FAN8100N*](https://www.digikey.com/en/products/detail/fairchild-semiconductor/FAN8100N/11558200)
@@ -249,7 +249,7 @@ The purpose of this section is to highlight various solutions for the components
 
 3. DRV8874 Single Motor Driver
 
-    ![GReen PCB with several components](images/MotorDriver/4035.png){style width:"250" height:"250;"}
+    ![GReen PCB with several components](images/MotorDriver/4035.png){style width:"150" height:"150;"}
 
     * $11.94/each
     * [*4035*](https://www.digikey.com/en/products/detail/pololu/4035/26714680)
@@ -268,7 +268,7 @@ The purpose of this section is to highlight various solutions for the components
 
 1. Resistors in series
 
-    ![Resistors in Series](<images/LinearRegV/seriesResistors.png>){style width:"250" height:"250;"}
+    ![Resistors in Series](<images/LinearRegV/seriesResistors.png>){style width:"150" height:"150;"}
 
     * Price: N/A given unspecified resistor choices
     * [*Potential Resistor Selection kit for reference*](https://a.co/d/aAf8ao3)
@@ -282,7 +282,7 @@ The purpose of this section is to highlight various solutions for the components
 
 2. Linear Voltage Regulator IC Positive Fixed 1 Output
 
-    ![Class supplied linear voltage regulator](images/LinearRegV/L7805cv.png){style width:"250" height:"250;"}
+    ![Class supplied linear voltage regulator](images/LinearRegV/L7805cv.png){style width:"150" height:"150;"}
 
     * $0.50/each
     * [*L7805CV*](https://www.digikey.com/en/products/detail/stmicroelectronics/L7805CV/585964)
@@ -297,7 +297,7 @@ The purpose of this section is to highlight various solutions for the components
 
 3. Buck Boost Switching Regulator IC Positive or Negative Adjustable
 
-    ![switching regulator](images/LinearRegV/MC34063ADR.png){style width:"250" height:"250;"}
+    ![switching regulator](images/LinearRegV/MC34063ADR.png){style width:"150" height:"150;"}
 
     * $0.72/each
     * [*MC34063ADR*](https://www.digikey.com/en/products/detail/texas-instruments/MC34063ADR/717456?gclsrc=aw.ds&gad_source=1&gad_campaignid=20228387720&gbraid=0AAAAADrbLljJJP2LtM7hvCVp3-Mh3_7W_&gclid=CjwKCAjwr8LHBhBKEiwAy47uUqqq2aaMgDxPoCipSHMWYPq1FvuA-GJiQvTwFop36W6WR2qHT0x6vRoC2WUQAvD_BwE)
@@ -317,7 +317,7 @@ The purpose of this section is to highlight various solutions for the components
 
 1. Cable Assembly 2.1mm ID, 5.5mm OD Jack to Wire Leads
 
-    ![Amorphous Barrel Jack](images/BarrelJack/10-02248_wire.png){style width:"250" height:"250;"}
+    ![Amorphous Barrel Jack](images/BarrelJack/10-02248_wire.png){style width:"150" height:"150;"}
 
     * $3.12/each
     * [*10-02248*](https://www.digikey.com/en/products/detail/tensility-international-corp/10-02248/6412283?gad_source=1&gad_campaignid=20232005509&gbraid=0AAAAADrbLljrcXxUCV1LTsO6jxX4XA7oB&gclid=CjwKCAjwr8LHBhBKEiwAy47uUhWfRJa1WjSa7oFyE4S57edtEmoB1vwpPt2mvGG0NypB_fi1XxlHgBoC86AQAvD_BwE&gclsrc=aw.ds)
@@ -330,7 +330,7 @@ The purpose of this section is to highlight various solutions for the components
 
 2. Power Barrel Connector Jack 2.00mm ID (0.079"), 5.50mm OD (0.217") Through Hole, Right Angle
 
-    ![Pins perpendicular to plug barrel jack](images/BarrelJack/PJ-102AH_square.png){style width:"250" height:"250;"}
+    ![Pins perpendicular to plug barrel jack](images/BarrelJack/PJ-102AH_square.png){style width:"150" height:"150;"}
 
     * $0.76/each
     * [*PJ-102AH*](https://www.digikey.com/en/products/detail/cui-devices/PJ-102AH/408448)
@@ -345,7 +345,7 @@ The purpose of this section is to highlight various solutions for the components
 
 3. PJ-044BH - butt pins
 
-    ![Pins parallel to plug](images/BarrelJack/PJ-044BH_column.png){style width:"250" height:"250;"}
+    ![Pins parallel to plug](images/BarrelJack/PJ-044BH_column.png){style width:"150" height:"150;"}
 
     * $5.96/each
     * [*PJ-044BH*](<link>)
@@ -366,7 +366,7 @@ The purpose of this section is to highlight various solutions for the components
 
 1. DC Motor Gearmotor 251 RPM Incremental
 
-    ![Cylindrical DC Motor With Encoder](images/Motors/FIT0186_cylinder.png){style width:"250" height:"250;"}
+    ![Cylindrical DC Motor With Encoder](images/Motors/FIT0186_cylinder.png){style width:"150" height:"150;"}
 
     * $16.50/each
     * [*FIT0186*](https://www.digikey.com/en/products/detail/dfrobot/FIT0186/6588528?gad_source=1&gad_campaignid=20243136172&gbraid=0AAAAADrbLlhjMd1SI_TeFQt_5_XtjL5xo&gclid=CjwKCAjwr8LHBhBKEiwAy47uUiZT24D54yJyO7D1VLXUaRgkqtdy2s7iNZbHibsX2ntwZ8JDITamkRoClxUQAvD_BwE&gclsrc=aw.ds)
@@ -379,7 +379,7 @@ The purpose of this section is to highlight various solutions for the components
 
 2. DC Motor Standard 9100 RPM 6VDC
 
-    ![Small Hobby motor with flattened side](images/Motors/711_small.png){style width:"250" height:"250;"}
+    ![Small Hobby motor with flattened side](images/Motors/711_small.png){style width:"150" height:"150;"}
 
     * $1.95/each
     * [*711*](https://www.digikey.com/en/products/detail/adafruit-industries-llc/711/5353610)
@@ -395,7 +395,7 @@ The purpose of this section is to highlight various solutions for the components
 
 3. Positional Rotation DC Motor Servomotor, RC (Hobby) Incremental 4.8VDC
 
-    ![Tiny Hobby Servo](images/Motors/SER0006Servo.png){style width:"250" height:"250;"}
+    ![Tiny Hobby Servo](images/Motors/SER0006Servo.png){style width:"150" height:"150;"}
 
     * $3.62/each
     * [*SER0006*](https://www.digikey.com/en/products/detail/dfrobot/SER0006/7597224?gad_source=1&gad_campaignid=20243136172&gbraid=0AAAAADrbLlhjMd1SI_TeFQt_5_XtjL5xo&gclid=CjwKCAjwr8LHBhBKEiwAy47uUvqPSR01UMMaW0vsJkCTgcAjBQFTcxhHIqgslE7rbuC9zgGIagRgSxoCdmYQAvD_BwE&gclsrc=aw.ds)
@@ -427,7 +427,7 @@ The purpose of this section is to highlight various solutions for the components
 
 2. Moisture Sensor Evaluation Board
 
-   ![Daughter Board Moisture Sensor](images/MoistureSensor/13637DaughterBoard.png){style width:"250" height:"250;"}
+   ![Daughter Board Moisture Sensor](images/MoistureSensor/13637DaughterBoard.png){style width:"150" height:"150;"}
 
    * $7.95/each
    * [*13637*](https://www.digikey.com/en/products/detail/sparkfun-electronics/13637/7400839?gad_source=1&gad_campaignid=20243136172&gbraid=0AAAAADrbLlhjMd1SI_TeFQt_5_XtjL5xo&gclid=CjwKCAjwr8LHBhBKEiwAy47uUjeGi6UtHDL_beVgu_eJiEsKrjFd01ggEMLQVdYcNGciDJtOswrw4hoCn1kQAvD_BwE&gclsrc=aw.ds)
@@ -441,7 +441,7 @@ The purpose of this section is to highlight various solutions for the components
 
 3. VH400 Soil Moisture Sensor
 
-   ![Sketchy Site Moisture Sensor](images/MoistureSensor/SoilMostureRelay.png){style width:"250" height:"250;"}
+   ![Sketchy Site Moisture Sensor](images/MoistureSensor/SoilMostureRelay.png){style width:"150" height:"150;"}
 
    * $44.95/each
    * [*VH400*](https://www.vegetronix.com/Products/g/VH400/?gad_source=1&gad_campaignid=16579499448&gbraid=0AAAAAD_hWxYMQJn4Trg0Nl1iOHVlJVMqP&gclid=CjwKCAjwr8LHBhBKEiwAy47uUunZFvPe0wVtp9Pu4kTaTyLGShGn7Eob-b656uyo1-3Cv-Wh-73_LxoCV7MQAvD_BwE)
