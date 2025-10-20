@@ -4,13 +4,20 @@ title: Schematic
 
 ## Overview
 
-This schematic is design to support .... (highlight functionally, power, and controller).
+This schematic is design to support <!--.... (highlight functionally, power, and controller).-->a motor that can move an arm to the limit switch in order to read the moisture of the soil. Through a 9v 3A power supply that is stepped down to a 5V 1A output. This secondary voltage is able to be used by the curiosity nano
 
+![schematic](DirksSupplied/completeSchematic.PNG){style width:"350" height:"300;"}
+**Figure #1:** The full schematic.  <br>
 
-![schematic](Screenshot.png){style width:"350" height:"300;"}
-**Figure ##:** Showing a example schematic.
+![close-up on Nano](DirksSupplied/nanoSchematic.PNG){style width:"350" height:"300;"}
+**Figure #2:** Closer view on the nano portion.  <br>
 
+![close-up on reuseable button](DirksSupplied/reusableDebuggingBtnSchematic.PNG){style width:"350" height:"300;"}
+**Figure #3:** Closer view on the debugging button schematic.  <br>
 
-## Resouces
+![close-up on ribbon cable](DirksSupplied/ribbonCableSchematic.PNG){style width:"350" height:"300;"}
+**Figure #4:** The ribbon cable in the schematic.  <br>
 
-The schematic as a PDF download is available [*here*](ExampleSchematic.pdf), and the Zip folder of the project [*here*](dummyZip.zip).
+## Resources
+
+The schematic is available as a [*pdf file*](DirksSupplied/schematic.pdf), and the project is available as a [*zip folder*](DirksSupplied/).
