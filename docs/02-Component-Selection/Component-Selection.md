@@ -119,7 +119,7 @@ The purpose of this section is to highlight various solutions for the components
 
 1. USB Power Bank Battery Charger 2A
 
-    ![AdaFruit Industries USB Power Bank](images/PowerSupply/1566USB.png){style width:"150" height:"150;"}
+    ![AdaFruit Industries USB Power Bank](images/PowerSupply/1566USB.png){style="max-height:200px;"}
 
     * $39.95/each
     * [*1566*](https://www.digikey.com/en/products/detail/adafruit-industries-llc/1566/6612468?gclsrc=aw.ds&gad_source=1&gad_campaignid=20243136172&gbraid=0AAAAADrbLlhjMd1SI_TeFQt_5_XtjL5xo&gclid=CjwKCAjwr8LHBhBKEiwAy47uUk3q97qpKOk9OI4bVaExirH9Z_ZgJgqjou72gkbAOUQFlqWR2LLEgBoCRz8QAvD_BwE)
@@ -130,7 +130,7 @@ The purpose of this section is to highlight various solutions for the components
     | Square footprint that doesn’t need to be on the pcb just connected | Doesn’t follow the project specifications                 |
     | Could be repurposed or replaced if it breaks easier than other integrated elements | Outputs 1-2A but isn’t clear on how to control the output |
 
-1. BestCH 9V 3.0A AC Adapter
+2. BestCH 9V 3.0A AC Adapter
 
     ![EGR 304's power port](images/PowerSupply/Bestch_EGR304Jack.jpg){style width:"150" height:"150;"}
 
@@ -148,7 +148,7 @@ The purpose of this section is to highlight various solutions for the components
     | Barrel jack can’t be inserted upside down and cause damage to the components |          |
     | Has been tested with other components provided in the class |                           |
 
-1. 6V DC Power Supply 1A Universal AC Adapter
+3. 6V DC Power Supply 1A Universal AC Adapter
 
     ![EGR 455's power port](images/PowerSupply/6v1AEGR455Jack.png){style width:"150" height:"150;"}
 
@@ -379,7 +379,7 @@ The purpose of this section is to highlight various solutions for the components
 
 2. DC Motor Standard 9100 RPM 6VDC
 
-    ![Small Hobby motor with flattened side](images/Motors/711_small.png){style width:"150" height:"150;"}
+    ![Small Hobby motor with flattened side](images/Motors/711_small.png){style="width:150 height:150;"}
 
     * $1.95/each
     * [*711*](https://www.digikey.com/en/products/detail/adafruit-industries-llc/711/5353610)
