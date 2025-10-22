@@ -29,10 +29,11 @@ Are available as a list here and with all the other options in [*Component Selec
 
 ## Individual Block Diagram
 
-![Uh oh we lost the Block Diagram](images/DavidBlockDiagram.png)
+![Uh oh we lost the Block Diagram](images/AustinBlockDiagram.png)
 
 This block diagram is available on [*Draw.io here!*](https://drive.google.com/file/d/1KY_l_oFdGwqlsgwlLvn5x_c0yW5vuY1z/view?usp=sharing)
 It can also be found [*in pdf form here.*](images/EGR304IndividualBlockDiagram.pdf)
+
 <!--
 ## Example Block Diagram
 
