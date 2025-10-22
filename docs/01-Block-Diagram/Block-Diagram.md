@@ -23,6 +23,7 @@ To get some initial formatting help, one can view ["here"](https://embedded-syst
 -->
 
 **Parts List for sensors and actuators that are involved in the diagram.**
+Are available as a list here and with all the other options in [*Component Selection.*](https://jacobdirks.github.io/02-Component-Selection/Component-Selection/)
 
 * [*463093691402*](https://www.digikey.com/en/products/detail/w-rth-elektronik/463093691402/14113680?gclsrc=aw.ds&gad_source=1&gad_campaignid=20243136172&gbraid=0AAAAADrbLlhjMd1SI_TeFQt_5_XtjL5xo&gclid=CjwKCAjwr8LHBhBKEiwAy47uUmrm-bK4boEMAm9Mk_cnw0iZMQBKQOZvTpEZI7Jhn9Q0tGQiBCwf3BoC28MQAvD_BwE)
 * [*FAN8100N*](https://www.digikey.com/en/products/detail/fairchild-semiconductor/FAN8100N/11558200)
